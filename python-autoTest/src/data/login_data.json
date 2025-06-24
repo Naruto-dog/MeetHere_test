@@ -1,0 +1,6 @@
+{
+  "case1":{"userid": "testa","password": "111111", "expect": "登录成功！"},
+  "case2":{"userid": "testa","password": "", "expect": "请填写此字段"},
+  "case3":{"userid": "","password": "111111", "expect": "请填写此字段"},
+  "case4":{"userid": "xxxx","password": "xxxxx", "expect": "用户名或密码错误"}
+}

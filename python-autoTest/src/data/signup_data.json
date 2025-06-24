@@ -1,0 +1,18 @@
+{
+  "case1":{"username": "test005","email": "555@555.com","phone": 13555555555,
+           "userid": "test005","password": "55555", "expect": "注册成功，请登录！"},
+  "case2":{"username": "test006","email": "","phone": 13666666666,
+           "userid": "test006","password": "66666", "expect": "注册成功，请登录！"},
+  "case3":{"username": "test007","email": "777@777.com","phone": "",
+           "userid": "test007","password": "77777", "expect": "注册成功，请登录！"},
+  "case4":{"username": "test008","email": "","phone": "",
+           "userid": "test008","password": "88888", "expect": "注册成功，请登录！"},
+  "case5":{"username": "test009","email": "999@999.com","phone": 13999999999,
+           "userid": "test005","password": "99999", "expect": "用户名已被占用，请重新输入！"},
+  "case6":{"username": "test010","email": "1010@1010.com","phone": 1310,
+           "userid": "test010","password": "101010", "expect": " 请输入正确的手机号！"},
+  "case7":{"username": "test011","email": "11@1","phone": 13111111111,
+           "userid": "test011","password": "111111", "expect": " 请输入正确的邮箱！"},
+  "case8":{"username": "","email": "1212@1212.com","phone": 13112121212,
+           "userid": "test012","password": "121212", "expect": "请填写此字段"}
+}

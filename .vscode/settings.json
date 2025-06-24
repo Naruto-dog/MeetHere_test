@@ -1,0 +1,11 @@
+{
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "interactive"
+
+// ============= Python 专属配置 =============
+    "python.pythonPath": "python-autoTest/.venv/bin/python", // 虚拟环境路径
+    "python.linting.enabled": true,
+    "python.analysis.typeCheckingMode": "basic",
+
+
+}
